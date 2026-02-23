@@ -1,0 +1,16 @@
+{
+  "frontend/src/App.tsx": "Main application component with TanStack Router setup, defining routes for booking page and confirmation page, wrapped with ThemeProvider and Toaster for notifications.",
+  "frontend/src/pages/BookingPage.tsx": "Main booking page featuring a hero section with background image, company branding, and the booking form component in a centered layout.",
+  "frontend/src/pages/BookingConfirmationPage.tsx": "Booking confirmation page that displays complete booking details after successful submission, including trip type, locations, dates, times, and fare with navigation back to home, updated to use Tailwind v3 class names.",
+  "frontend/src/components/BookingHeader.tsx": "Sticky header component displaying the Yuvashri Travels logo and company name with tagline, fixed conflicting Tailwind classes.",
+  "frontend/src/components/BookingForm.tsx": "Main booking form orchestrating all form sections including trip type selection, location inputs, date/time pickers, duration slider for local rentals, fare estimate display, and submission with validation.",
+  "frontend/src/components/TripTypeSelector.tsx": "Tab-based trip type selector allowing users to choose between one-way, round trip, and local rental options with icons and visual feedback.",
+  "frontend/src/components/LocationInput.tsx": "Reusable location input component with MapPin icon, label, and dropdown select for Indian states and union territories, replacing the previous text input with a comprehensive list of 36 current Indian state names.",
+  "frontend/src/components/DateTimePicker.tsx": "Date and time picker component with calendar/clock icons, validation to prevent past dates, and support for minimum date constraints.",
+  "frontend/src/components/FareEstimate.tsx": "Fare estimate display component showing calculated fare with Indian Rupee symbol, loading state, and disclaimer text.",
+  "frontend/src/components/Footer.tsx": "Footer component with copyright, attribution to caffeine.ai with UTM tracking, and heart icon.",
+  "frontend/src/hooks/useQueries.ts": "React Query mutation hook for creating bookings with backend actor integration and cache invalidation.",
+  "frontend/src/hooks/useFareCalculation.ts": "Custom hook that debounces and calculates fare dynamically based on trip type, locations, and duration using the backend actor, with proper TypeScript null handling using nullish coalescing operator.",
+  "frontend/src/index.css": "Global styles with professional teal and blue OKLCH color system for transportation business, including light and dark mode variants with proper contrast ratios.",
+  "frontend/tailwind.config.js": "Tailwind configuration extending the theme with professional transportation colors, Inter font family, custom shadows, and increased border radius for modern aesthetic."
+}

@@ -1,0 +1,29 @@
+{
+  "kind": "implementation_plan",
+  "version": "1.0",
+  "title": "Update all state location fields",
+  "requirements": [
+    {
+      "id": "REQ-11",
+      "summary": "Replace all existing state location references in the booking form with updated state names, ensuring pickup and drop location fields reflect current Indian state names",
+      "acceptanceCriteria": [
+        "All state location options are updated to current Indian state names",
+        "Pickup location input displays updated state options",
+        "Drop location input displays updated state options",
+        "Location selection functionality continues to work correctly after update"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/BookingForm.tsx",
+          "operation": "modify",
+          "description": "Update the state location data or references used for pickup and drop location fields to reflect current Indian state names. Ensure the location input fields continue to function correctly with the updated state options while preserving existing validation logic and UI behavior."
+        },
+        {
+          "path": "frontend/src/components/LocationInput.tsx",
+          "operation": "modify",
+          "description": "If this component contains hardcoded state options or location data, update them to current Indian state names. Ensure the component continues to render location options correctly and maintains its existing input functionality and styling."
+        }
+      ]
+    }
+  ]
+}

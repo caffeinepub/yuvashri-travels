@@ -1,0 +1,38 @@
+{
+  "kind": "build_request",
+  "title": "Update all state location fields",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-11",
+      "text": "Replace all existing state location references in the booking form with updated state names, ensuring pickup and drop location fields reflect current Indian state names",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-user-update-all-state-location"
+        ]
+      },
+      "acceptanceCriteria": [
+        "All state location options are updated to current Indian state names",
+        "Pickup location input displays updated state options",
+        "Drop location input displays updated state options",
+        "Location selection functionality continues to work correctly after update"
+      ]
+    }
+  ],
+  "constraints": [
+    "Do not modify the backend booking data model or main.mo file",
+    "Preserve existing location input functionality and validation",
+    "Maintain the current UI/UX design of location input fields"
+  ],
+  "nonGoals": [
+    "Adding new trip types or booking features",
+    "Changing fare calculation logic",
+    "Modifying booking confirmation page",
+    "Altering the backend API structure"
+  ],
+  "imageRequirements": {
+    "required": [],
+    "edits": []
+  }
+}

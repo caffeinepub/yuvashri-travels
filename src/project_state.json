@@ -1,0 +1,118 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 5,
+  "summary": "Create a taxi/cab booking page similar to the Bismi Cabs reference, branded for Yuvashri Travels company",
+  "architectural_notes": [
+    "Reference design from Bismi Cabs booking interface",
+    "Brand as Yuvashri Travels"
+  ],
+  "known_issues": [],
+  "isFixRequest": false,
+  "existing_features": [
+    {
+      "id": "feature-create-a-customer-booking-page-with-company-branding-for-yuvashri-travels-including-logo-placement-and-company-name-display",
+      "title": "Create a customer booking page with company branding for 'Yuvashri Travels' including logo placement and company name display",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-trip-type-selection-allowing-users-to-choose-between-one-way-round-trip-and-local-rental-trip-types",
+      "title": "Implement trip type selection allowing users to choose between one-way, round-trip, and local rental trip types",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-pickup-location-input-field-with-city-location-selection-functionality",
+      "title": "Add pickup location input field with city/location selection functionality",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-drop-location-input-field-with-city-location-selection-functionality",
+      "title": "Add drop location input field with city/location selection functionality",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-pickup-date-and-time-selection-with-date-picker-and-time-picker-components",
+      "title": "Implement pickup date and time selection with date picker and time picker components",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-return-date-and-time-selection-for-round-trip-bookings",
+      "title": "Add return date and time selection for round-trip bookings",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-display-estimated-fare-calculation-based-on-trip-type-locations-and-duration",
+      "title": "Display estimated fare calculation based on trip type, locations, and duration",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-a-submit-book-button-that-validates-all-required-fields-and-creates-a-booking",
+      "title": "Add a submit/book button that validates all required fields and creates a booking",
+      "reqIds": [
+        "REQ-9"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-design-a-professional-and-visually-appealing-cab-booking-interface-with-a-cohesive-color-scheme-modern-typography-and-clean-layout-that-conveys-trust-and-reliability-for-a-transportation-service",
+      "title": "Design a professional and visually appealing cab booking interface with a cohesive color scheme, modern typography, and clean layout that conveys trust and reliability for a transportation service",
+      "reqIds": [
+        "REQ-10"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-replace-all-existing-state-location-references-in-the-booking-form-with-updated-state-names-ensuring-pickup-and-drop-location-fields-reflect-current-indian-state-names",
+      "title": "Replace all existing state location references in the booking form with updated state names, ensuring pickup and drop location fields reflect current Indian state names",
+      "reqIds": [
+        "REQ-11"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Create customer booking page with trip type selection, pickup/drop locations, date/time, and fare calculation",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-9",
+      "summary": "Create backend data model to store booking information including trip type, locations, dates, times, and fare",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-10",
+      "summary": "Update all state locations in the booking interface",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "projectName": "Yuvashri Travels",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-replace-all-existing-state-location-references-in-the-booking-form-with-updated-state-names-ensuring-pickup-and-drop-location-fields-reflect-current-indian-state-names",
+      "featureTitle": "Replace all existing state location references in the booking form with updated state names, ensuring pickup and drop location fields reflect current Indian state names",
+      "files": [
+        "frontend/src/components/LocationInput.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-11"
+      ],
+      "confidence": "high"
+    }
+  ]
+}
